@@ -1,0 +1,65 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://flat1-minio.app.flat1.poc01.dev.superhub.io'
+  - name: application.bucket.endpoint.internal
+    value: 'http://flat1-minio.minio.svc.cluster.local:9000'
+  - name: application.bucket.name
+    value: default
+  - name: application.bucket.region
+    value: us-east-1
+  - name: application.description
+    value: Kubeflow pipeline
+  - name: application.humanName
+    value: kf-flatcar2
+  - name: application.name
+    value: kf-flatcar2
+  - name: application.training.docker.auth.basic.username
+    value: admin
+  - name: application.training.docker.auth.host
+    value: flat1-harbor.svc.flat1.poc01.dev.superhub.io
+  - name: application.training.docker.registry.image
+    value: flat1-harbor.svc.flat1.poc01.dev.superhub.io/library/kf-flatcar2
+  - name: application.training.docker.registry.kind
+    value: harbor
+  - name: application.training.docker.registry.url
+    value: flat1-harbor.svc.flat1.poc01.dev.superhub.io/library
+  - name: author.email
+    value: igor@agilestacks.com
+  - name: author.id
+    value: 00uacz9qcaAVy1TMI0h7
+  - name: author.name
+    value: Igor Mameshin
+  - name: author.organization
+    value: ASI
+  - name: component.dex.okta.appId
+    value: 0oaq0gxxna2ED2IA80h7
+  - name: component.dex.okta.clientId
+    value: 0oaq0gxxna2ED2IA80h7
+  - name: component.dex.okta.issuer
+    value: 'https://dev-458481.oktapreview.com'
+  - name: component.github.repository.name
+    value: kf-flatcar2
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.endpoint.internal
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.humanName
+  - name: application.name
+  - name: application.training.docker.auth.basic.username
+  - name: application.training.docker.auth.host
+  - name: application.training.docker.registry.image
+  - name: application.training.docker.registry.kind
+  - name: application.training.docker.registry.url
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
